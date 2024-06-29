@@ -1,0 +1,50 @@
+@media screen and (max-width:1024px) {
+    main .container {
+        padding-right: 5%;
+    }
+
+    main .imagem img {
+        width: 70%;
+    }
+
+    main .forms .info input {
+        padding: 12px 8px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        max-height: fit-content;
+        flex-direction: column;
+    }
+
+    main .container {
+        padding-right: 0;
+        max-width: 90%;
+        width: 90%;
+    }
+
+    main .imagem {
+        height: auto;
+        padding-top: 50px;
+    }
+
+    main .imagem img {
+        width: 65%;
+    }
+
+    main .login .logo img{
+        width: 45%;
+    }
+    main .forms{
+        margin-bottom: 70px;
+    }
+    
+}
+
+@media screen and (max-width:432px) {
+    main .imagem img {
+        display: none;
+    }
+}    
